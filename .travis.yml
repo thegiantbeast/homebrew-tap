@@ -1,0 +1,26 @@
+language: ruby
+
+sudo: false
+
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode8.3
+      rvm: system
+  fast_finish: true
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - $HOME/.gem
+
+install: true # skip install step
+
+before_script:
+  - . ci/before_script.sh
+
+script:
+  - . ci/script.sh
