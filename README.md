@@ -1,5 +1,6 @@
 Personal Homebrew Tap
 =====================
+[![Build Status](https://travis-ci.org/thegiantbeast/homebrew-tap.svg?branch=master)](https://travis-ci.org/thegiantbeast/homebrew-tap)
 
 This a [Homebrew Tap](http://docs.brew.sh/brew-tap.html) containing a collection of formulas/casks that have not yet been accepted into the mainline Homebrew/Caskroom repo.
 
