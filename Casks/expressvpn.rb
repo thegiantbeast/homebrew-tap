@@ -9,8 +9,6 @@ cask 'expressvpn' do
   name 'ExpressVPN'
   homepage 'https://www.expressvpn.com/'
 
-  license :commercial
-
   pkg "expressvpn-install_v#{version}.pkg"
 
   uninstall pkgutil: 'com.expressvpn.ExpressVPN',
